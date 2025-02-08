@@ -1,0 +1,102 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black; 
+  font-family: Arial, sans-serif;
+}
+
+.login-container {
+  display: flex;
+  width: 500px;
+  padding: 60px;
+  border: 2px solid white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2);
+}
+
+.image-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-container img {
+  width: 230px;
+  height: auto;
+}
+
+.form-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+h2 {
+  color: white;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.input-box {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px 0;
+}
+
+.input-box input {
+  width: 100%;
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 100px;
+  background-color: black;
+  color: white;
+  outline: none;
+}
+
+.captcha-container {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.captcha-container p {
+  color: white;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.captcha-container input {
+  width: 100%;
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 100px;
+  background-color: black;
+  color: white;
+  outline: none;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: blue;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+  transition: background-color 0.3s , color 0.3s ;
+}
+
+button:hover {
+  background-color: white;
+  color: blue;
+}
